@@ -1,0 +1,92 @@
+{
+  "environment": "Native CPython; production grader; not Pyodide/browser",
+  "runtime": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "passed": 21,
+  "total": 21,
+  "results": [
+    {
+      "name": "NameError retains original error and traceback",
+      "passed": true
+    },
+    {
+      "name": "SyntaxError retains original error and traceback",
+      "passed": true
+    },
+    {
+      "name": "IndentationError retains original error and traceback",
+      "passed": true
+    },
+    {
+      "name": "TypeError retains original error and traceback",
+      "passed": true
+    },
+    {
+      "name": "KeyError retains original error and traceback",
+      "passed": true
+    },
+    {
+      "name": "ZeroDivisionError retains original error and traceback",
+      "passed": true
+    },
+    {
+      "name": "IndexError retains original error and traceback",
+      "passed": true
+    },
+    {
+      "name": "ValueError retains original error and traceback",
+      "passed": true
+    },
+    {
+      "name": "Empty input is rejected",
+      "passed": true
+    },
+    {
+      "name": "Oversized programs are rejected",
+      "passed": true
+    },
+    {
+      "name": "Missing queued stdin is specific",
+      "passed": true
+    },
+    {
+      "name": "Queued inputs preserve value order",
+      "passed": true
+    },
+    {
+      "name": "Huge output is bounded before transport",
+      "passed": true
+    },
+    {
+      "name": "Unicode output stays valid and byte-bounded",
+      "passed": true
+    },
+    {
+      "name": "Output line count is bounded",
+      "passed": true
+    },
+    {
+      "name": "Fresh namespace does not leak earlier variables",
+      "passed": true
+    },
+    {
+      "name": "Unavailable imports produce a clear restriction",
+      "passed": true
+    },
+    {
+      "name": "Wrong behavior receives a specific failed check",
+      "passed": true
+    },
+    {
+      "name": "Different valid implementations pass behavior tests",
+      "passed": true
+    },
+    {
+      "name": "Predictions are judged against executed output",
+      "passed": true
+    },
+    {
+      "name": "Plots are captured, bounded, and closed",
+      "passed": true
+    }
+  ]
+}

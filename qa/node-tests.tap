@@ -1,0 +1,192 @@
+TAP version 13
+# Subtest: 30 missions, five worlds, 150 consistent challenges, 30 AI audits
+ok 1 - 30 missions, five worlds, 150 consistent challenges, 30 AI audits
+  ---
+  duration_ms: 3.755945
+  type: 'test'
+  ...
+# Subtest: all five worlds end in exactly one boss
+ok 2 - all five worlds end in exactly one boss
+  ---
+  duration_ms: 0.790872
+  type: 'test'
+  ...
+# Subtest: submission converter uses source for predictions and fills only one slot
+ok 3 - submission converter uses source for predictions and fills only one slot
+  ---
+  duration_ms: 0.153157
+  type: 'test'
+  ...
+# Subtest: offline marker appears only after every checksum-verified file is saved
+ok 4 - offline marker appears only after every checksum-verified file is saved
+  ---
+  duration_ms: 32.826376
+  type: 'test'
+  ...
+# Subtest: corrupt package fails readiness and a retry resumes successfully
+ok 5 - corrupt package fails readiness and a retry resumes successfully
+  ---
+  duration_ms: 10.277532
+  type: 'test'
+  ...
+# Subtest: cached navigation and runtime assets are served with network unavailable
+ok 6 - cached navigation and runtime assets are served with network unavailable
+  ---
+  duration_ms: 4.894552
+  type: 'test'
+  ...
+# Subtest: repeat preparation re-verifies cache without downloading asset bytes again
+ok 7 - repeat preparation re-verifies cache without downloading asset bytes again
+  ---
+  duration_ms: 6.656021
+  type: 'test'
+  ...
+# (node:8417) ExperimentalWarning: The MockTimers API is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: runner rejects empty input without starting a worker
+ok 8 - runner rejects empty input without starting a worker
+  ---
+  duration_ms: 2.612711
+  type: 'test'
+  ...
+# Subtest: rapid repeated runs produce Busy, not overlapping execution
+ok 9 - rapid repeated runs produce Busy, not overlapping execution
+  ---
+  duration_ms: 1.546921
+  type: 'test'
+  ...
+# Subtest: five-second watchdog starts after executing, not during package loading
+ok 10 - five-second watchdog starts after executing, not during package loading
+  ---
+  duration_ms: 0.832364
+  type: 'test'
+  ...
+# Subtest: late messages from a terminated worker cannot overwrite the new run
+ok 11 - late messages from a terminated worker cannot overwrite the new run
+  ---
+  duration_ms: 0.57363
+  type: 'test'
+  ...
+# Subtest: hidden page cancels a pending run
+ok 12 - hidden page cancels a pending run
+  ---
+  duration_ms: 0.652056
+  type: 'test'
+  ...
+# Subtest: initialization timeout fails gracefully and clears pending state
+ok 13 - initialization timeout fails gracefully and clears pending state
+  ---
+  duration_ms: 0.508934
+  type: 'test'
+  ...
+# Subtest: successful run clears watchdog so it does not restart later
+ok 14 - successful run clears watchdog so it does not restart later
+  ---
+  duration_ms: 0.507882
+  type: 'test'
+  ...
+# Subtest: fresh and exported state round-trip
+ok 15 - fresh and exported state round-trip
+  ---
+  duration_ms: 20.587934
+  type: 'test'
+  ...
+# Subtest: corrupt, oversized, unknown, prototype and incompatible imports fail
+ok 16 - corrupt, oversized, unknown, prototype and incompatible imports fail
+  ---
+  duration_ms: 3.123367
+  type: 'test'
+  ...
+# Subtest: schema rejects impossible completions and invalid settings
+ok 17 - schema rejects impossible completions and invalid settings
+  ---
+  duration_ms: 0.902357
+  type: 'test'
+  ...
+# Subtest: first success earns XP exactly once; repeated completion cannot farm coins
+ok 18 - first success earns XP exactly once; repeated completion cannot farm coins
+  ---
+  duration_ms: 1.219166
+  type: 'test'
+  ...
+# Subtest: hints affect only bonus XP, never block completion
+ok 19 - hints affect only bonus XP, never block completion
+  ---
+  duration_ms: 0.370639
+  type: 'test'
+  ...
+# Subtest: failure changes mastery and combo but never removes XP
+ok 20 - failure changes mastery and combo but never removes XP
+  ---
+  duration_ms: 0.583013
+  type: 'test'
+  ...
+# Subtest: one missed day consumes one freeze; comeback does not shame or remove XP
+ok 21 - one missed day consumes one freeze; comeback does not shame or remove XP
+  ---
+  duration_ms: 0.908256
+  type: 'test'
+  ...
+# Subtest: review pays once per challenge per day
+ok 22 - review pays once per challenge per day
+  ---
+  duration_ms: 0.943908
+  type: 'test'
+  ...
+# Subtest: mastery requires independent retrieval on distinct days
+ok 23 - mastery requires independent retrieval on distinct days
+  ---
+  duration_ms: 0.850621
+  type: 'test'
+  ...
+# Subtest: cosmetics are validated, affordable, and purchased only once
+ok 24 - cosmetics are validated, affordable, and purchased only once
+  ---
+  duration_ms: 0.521253
+  type: 'test'
+  ...
+# Subtest: unlock and completion require all five challenges
+ok 25 - unlock and completion require all five challenges
+  ---
+  duration_ms: 3.03719
+  type: 'test'
+  ...
+# Subtest: dates obey saved timezone and exact day distance
+ok 26 - dates obey saved timezone and exact day distance
+  ---
+  duration_ms: 0.551528
+  type: 'test'
+  ...
+# Subtest: localStorage access denial keeps playable in-memory state
+ok 27 - localStorage access denial keeps playable in-memory state
+  ---
+  duration_ms: 19.791283
+  type: 'test'
+  ...
+# Subtest: corrupted saved JSON fails without crashing or losing export ability
+ok 28 - corrupted saved JSON fails without crashing or losing export ability
+  ---
+  duration_ms: 1.742772
+  type: 'test'
+  ...
+# Subtest: invalid import never overwrites an existing save; reset is complete
+ok 29 - invalid import never overwrites an existing save; reset is complete
+  ---
+  duration_ms: 2.381684
+  type: 'test'
+  ...
+# Subtest: newer external tab saves block stale writes
+ok 30 - newer external tab saves block stale writes
+  ---
+  duration_ms: 1.899365
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 132.26612

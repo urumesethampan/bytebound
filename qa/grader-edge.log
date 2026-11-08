@@ -1,0 +1,22 @@
+PASS NameError retains original error and traceback
+PASS SyntaxError retains original error and traceback
+PASS IndentationError retains original error and traceback
+PASS TypeError retains original error and traceback
+PASS KeyError retains original error and traceback
+PASS ZeroDivisionError retains original error and traceback
+PASS IndexError retains original error and traceback
+PASS ValueError retains original error and traceback
+PASS Empty input is rejected
+PASS Oversized programs are rejected
+PASS Missing queued stdin is specific
+PASS Queued inputs preserve value order
+PASS Huge output is bounded before transport
+PASS Unicode output stays valid and byte-bounded
+PASS Output line count is bounded
+PASS Fresh namespace does not leak earlier variables
+PASS Unavailable imports produce a clear restriction
+PASS Wrong behavior receives a specific failed check
+PASS Different valid implementations pass behavior tests
+PASS Predictions are judged against executed output
+PASS Plots are captured, bounded, and closed
+{"passed": 21, "total": 21}

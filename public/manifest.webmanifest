@@ -1,0 +1,11 @@
+{
+  "id":"./", "name":"Bytebound - Python Archipelago", "short_name":"Bytebound",
+  "description":"A private Python learning game in five floating worlds.",
+  "start_url":"./", "scope":"./", "display":"standalone", "orientation":"any",
+  "background_color":"#10151b", "theme_color":"#10151b",
+  "icons":[
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}

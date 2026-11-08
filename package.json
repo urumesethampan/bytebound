@@ -1,0 +1,40 @@
+{
+  "name": "bytebound",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A private, offline-first Python learning archipelago",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "prepare:runtime": "node scripts/prepare-runtime.mjs",
+    "build": "npm run prepare:runtime && vite build && node scripts/finalize-build.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs",
+    "test:content": "python3 tests/content_reference.py",
+    "test:browser": "playwright test",
+    "check": "node scripts/check-source.mjs && npm test",
+    "test:ui": "node scripts/build-ui-fixture.mjs && python3 tests/ui_fixture.py",
+    "test:grader": "python3 tests/grader_edge_cases.py"
+  },
+  "dependencies": {
+    "@codemirror/commands": "6.8.1",
+    "@codemirror/lang-python": "6.2.1",
+    "@codemirror/language": "6.11.0",
+    "@codemirror/state": "6.5.2",
+    "@codemirror/view": "6.36.5",
+    "@lezer/highlight": "1.2.1",
+    "@fontsource/space-grotesk": "5.2.5",
+    "@fontsource/ibm-plex-mono": "5.2.5",
+    "three": "0.174.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.51.1",
+    "vite": "6.4.5",
+    "@axe-core/playwright": "4.10.2",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

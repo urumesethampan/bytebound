@@ -1,0 +1,88 @@
+{
+  "environment": "Headless Chromium; isolated in-memory DOM fixture; fake worker responses; system fonts; no Three.js/CodeMirror/Pyodide/service worker",
+  "passed": 19,
+  "total": 19,
+  "results": [
+    {
+      "name": "Home has one dominant Continue action",
+      "passed": true
+    },
+    {
+      "name": "Empty program shows specific feedback",
+      "passed": true
+    },
+    {
+      "name": "UI routes a stubbed success into saved rewards",
+      "passed": true
+    },
+    {
+      "name": "Next challenge does not overwrite its draft with previous code",
+      "passed": true
+    },
+    {
+      "name": "Three-step hint ladder reveals a usable solution",
+      "passed": true
+    },
+    {
+      "name": "Optional visualization opens and Escape closes dialog",
+      "passed": true
+    },
+    {
+      "name": "Battery Saver is static and has no canvas",
+      "passed": true
+    },
+    {
+      "name": "Light theme setting applies",
+      "passed": true
+    },
+    {
+      "name": "Corrupted import preserves existing progress",
+      "passed": true
+    },
+    {
+      "name": "Confirmed reset clears saved progress",
+      "passed": true
+    },
+    {
+      "name": "Five-Minute Mode ends after one correct step",
+      "passed": true
+    },
+    {
+      "name": "phone home has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone mission has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "phone Run control is visible and unobscured",
+      "passed": true
+    },
+    {
+      "name": "tablet home has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet mission has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "tablet Run control is visible and unobscured",
+      "passed": true
+    },
+    {
+      "name": "Device reduced-motion preference applies",
+      "passed": true
+    },
+    {
+      "name": "No uncaught JavaScript errors in DOM fixture",
+      "passed": true
+    }
+  ],
+  "measurements": {
+    "fixtureDocumentToInteractiveMs": 155,
+    "continueToFallbackEditorMs": 96.1
+  },
+  "productionPerformanceClaim": false
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#10151b" />
+  <meta name="description" content="Thirty missions. Five worlds. Your first Python adventure. Private, offline, and entirely yours." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' blob: 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' blob: data:; font-src 'self'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none';" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <link rel="stylesheet" href="./src/ui/styles.css" />
+  <title>Bytebound - Your Python archipelago</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div id="app"><main class="boot" id="main"><div class="boot-mark">B.</div><h1>BYTEBOUND</h1><p>Your next small adventure is loading.</p></main></div>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+  <noscript>This local learning game needs JavaScript enabled. It does not send your code or progress anywhere.</noscript>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

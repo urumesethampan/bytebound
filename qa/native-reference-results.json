@@ -1,0 +1,2565 @@
+{
+  "runtime": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "environment": "Native CPython; not a Pyodide/browser result",
+  "pandas": "2.2.3",
+  "reference": [
+    {
+      "id": "d01-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d01-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d01-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d01-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d01-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d02-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d02-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d02-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d02-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d02-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d03-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d03-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d03-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d03-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d03-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d04-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d04-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d04-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d04-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d04-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d05-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d05-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d05-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d05-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d05-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d06-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d06-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d06-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d06-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d06-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d07-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d07-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d07-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d07-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d07-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d08-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d08-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d08-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d08-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d08-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d09-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d09-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d09-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d09-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d09-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d10-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d10-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d10-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d10-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d10-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d11-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d11-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d11-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d11-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d11-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d12-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d12-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d12-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d12-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d12-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d13-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d13-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d13-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d13-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d13-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d14-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d14-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d14-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d14-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d14-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d15-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d15-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d15-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d15-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d15-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d16-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d16-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d16-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d16-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d16-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d17-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d17-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d17-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d17-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d17-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d18-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d18-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d18-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d18-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d18-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d19-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d19-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d19-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d19-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d19-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d20-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d20-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d20-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d20-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d20-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d21-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d21-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d21-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d21-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d21-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d22-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d22-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d22-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d22-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d22-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d23-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d23-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d23-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d23-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d23-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d24-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d24-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d24-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d24-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d24-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d25-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d25-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d25-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d25-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d25-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d26-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d26-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d26-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d26-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d26-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d27-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d27-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d27-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d27-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d27-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d28-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d28-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d28-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d28-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d28-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d29-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d29-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d29-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d29-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d29-c5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d30-c1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d30-c2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d30-c3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d30-c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "d30-c5",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "negative": [
+    {
+      "id": "d01-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d01-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d01-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d01-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d01-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d01-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d01-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": "NameError"
+    },
+    {
+      "id": "d01-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d01-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": "NameError"
+    },
+    {
+      "id": "d01-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d02-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d03-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": "NameError"
+    },
+    {
+      "id": "d04-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d04-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d05-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": "NameError"
+    },
+    {
+      "id": "d06-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d06-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d07-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": "IndentationError"
+    },
+    {
+      "id": "d08-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d08-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d09-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d10-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d11-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d11-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d11-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d11-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d11-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": "IndentationError"
+    },
+    {
+      "id": "d11-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d11-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d11-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d11-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "d11-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": "IndentationError"
+    },
+    {
+      "id": "d12-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d12-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d13-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": "IndexError"
+    },
+    {
+      "id": "d13-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d14-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d14-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d14-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d14-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d14-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": "AttributeError"
+    },
+    {
+      "id": "d14-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": "AttributeError"
+    },
+    {
+      "id": "d14-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d14-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d14-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d14-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d15-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d16-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d16-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d16-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": "KeyError"
+    },
+    {
+      "id": "d16-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": "KeyError"
+    },
+    {
+      "id": "d16-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d16-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d16-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d16-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d16-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": "KeyError"
+    },
+    {
+      "id": "d16-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d17-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d18-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": "NameError"
+    },
+    {
+      "id": "d19-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d19-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": "TypeError"
+    },
+    {
+      "id": "d20-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d20-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d21-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d22-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d22-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d22-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d22-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d22-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d22-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d22-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": "NameError"
+    },
+    {
+      "id": "d22-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": "AttributeError"
+    },
+    {
+      "id": "d22-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": "AttributeError"
+    },
+    {
+      "id": "d22-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": "NameError"
+    },
+    {
+      "id": "d23-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d23-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d24-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d24-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d24-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d24-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d24-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d24-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d24-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": "TypeError"
+    },
+    {
+      "id": "d24-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": "TypeError"
+    },
+    {
+      "id": "d24-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d24-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d25-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d26-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d27-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": "ValueError"
+    },
+    {
+      "id": "d27-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d28-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d29-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c1",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c1",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c2",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c2",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c3",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c3",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c4",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c4",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c5",
+      "fixture": 1,
+      "rejected": true,
+      "error": null
+    },
+    {
+      "id": "d30-c5",
+      "fixture": 2,
+      "rejected": true,
+      "error": null
+    }
+  ],
+  "totals": {
+    "referencePassed": 150,
+    "referenceTotal": 150,
+    "negativeRejected": 300,
+    "negativeTotal": 300
+  }
+}
