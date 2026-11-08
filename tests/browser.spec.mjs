@@ -57,6 +57,7 @@ test('mobile editor, specific feedback, hints, and idempotent rewards', async ({
     await expect(page.locator('#run-output')).toContainText('A first line');
     await page.locator('.cm-content').fill('print("Hello, Pip!")');
     await page.locator('[data-action="run"]').click();
+    await page.waitForTimeout(10000); console.log('DIAG', JSON.stringify(await page.locator('#run-output').innerText()), await page.evaluate(() => window.__BYTEBOUND_QA__.getRunnerStatus()));
     await expect(page.locator('#next-step')).toBeVisible({ timeout: 120000 });
     const before = await page.evaluate(() => window.__BYTEBOUND_QA__.getState().xp);
     await page.locator('[data-action="run"]').click();
