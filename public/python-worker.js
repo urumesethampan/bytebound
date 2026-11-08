@@ -20,10 +20,10 @@ let py, initializing, occupied = false;
 const bundledData = new Map();
 async function initialize(base) {
     root = base;
-    if (py)
-        return py;
     if (initializing)
         return initializing;
+    if (py)
+        return py;
     initializing = (async () => {
         postMessage({ type: 'status', status: 'loading', message: 'Assembling your Python engine...' });
         const module = await import(new URL('pyodide/pyodide.mjs', root).href);
