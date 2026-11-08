@@ -37,6 +37,8 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Run production browser quality gate
         run: npm run test:browser
+        env:
+          PW_EXPERIMENTAL_SERVICE_WORKER_NETWORK_EVENTS: 1
       - name: Create deployable static archive
         run: cd dist && zip -qr ../bytebound-static-site.zip .
       - name: Save verification evidence and dependency lock
