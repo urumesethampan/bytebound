@@ -1,7 +1,7 @@
 # BYTEBOUND
 ## Thirty missions. Five floating worlds. Your first Python adventure.
 
-A single-user, browser-only Python learning game for Swen. The production app has no backend, account system, analytics, cloud grader, remote fonts, or runtime CDN dependencies. All learning code runs in a dedicated Pyodide module worker. Progress stays in the current browser.
+A single-user, browser-only Python learning game. The production app has no backend, account system, analytics, cloud grader, remote fonts, or runtime CDN dependencies. All learning code runs in a dedicated Pyodide module worker. Progress stays in the current browser.
 
 **Delivery status: complete application source; production release gate still pending.** The delivery environment could not download npm/Pyodide dependencies, and its browser policy blocked URL navigation. Therefore this archive is **not a prebuilt, production-certified website**. The actual curriculum, state systems, worker controller, offline-cache logic, and isolated DOM interface were tested. Real Pyodide, CodeMirror, Three.js, service-worker installation, and physical-phone performance still need the included release workflow. Read `docs/QA_REPORT.md` before publishing.
 
