@@ -1,0 +1,70 @@
+name: Verify and publish Bytebound
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: bytebound-pages
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install exact direct dependencies and create or use dependency lock
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+          python -m pip install pandas matplotlib
+      - name: Static, state, runner-controller, and native reference tests
+        run: |
+          npm run check
+          npm run test:content
+          npm run test:grader
+      - name: Build self-hosted runtime and complete offline inventory
+        run: npm run build
+      - name: Install browser for release-gate tests
+        run: npx playwright install --with-deps chromium
+      - name: Run production browser quality gate
+        run: npm run test:browser
+      - name: Create deployable static archive
+        run: cd dist && zip -qr ../bytebound-static-site.zip .
+      - name: Save verification evidence and dependency lock
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bytebound-verification-and-lock
+          path: |
+            qa/
+            playwright-report/
+            test-results/
+            package-lock.json
+      - name: Save complete static site
+        uses: actions/upload-artifact@v4
+        with:
+          name: bytebound-static-site
+          path: bytebound-static-site.zip
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish only after every release-gate test passes
+        id: deployment
+        uses: actions/deploy-pages@v4
