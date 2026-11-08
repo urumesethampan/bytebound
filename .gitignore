@@ -1,0 +1,13 @@
+node_modules/
+dist/
+public/pyodide/
+public/fonts/
+test-results/
+playwright-report/
+__pycache__/
+.DS_Store
+
+.build-cache/
+.qa-fixture/
+public/licenses/
+public/runtime-meta.json
